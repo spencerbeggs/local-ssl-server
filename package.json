@@ -7,12 +7,13 @@
   "license": "MIT",
   "type": "module",
   "scripts": {
-    "start": "node --experimental-modules src/index.mjs"
+    "start": "node --experimental-modules test"
   },
   "dependencies": {
     "chalk": "^2.4.2",
     "dotenv": "^8.0.0",
     "fs-extra": "^8.0.1",
-    "pem": "^1.14.2"
+    "pem": "^1.14.2",
+    "tmp": "^0.1.0"
   }
 }
